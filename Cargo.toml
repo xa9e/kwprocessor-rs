@@ -1,0 +1,19 @@
+[package]
+name = "kwp-rs"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+authors = ["xa9e"]
+description = "Optimized Rust rewrite of keyboard-walk-processor"
+repository = "https://github.com/xa9e/kwprocessor-rs"
+homepage = "https://github.com/xa9e/kwprocessor-rs"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = "symbols"
+
+[profile.dev]
+opt-level = 1

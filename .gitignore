@@ -1,0 +1,8 @@
+/target/
+**/__pycache__/
+*.py[cod]
+*.out
+*.txt.out
+Cargo.lock
+examples/wordlists/human-keyboard-walks-priority.txt
+examples/wordlists/human-keyboard-walks-large*.txt
